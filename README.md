@@ -1,13 +1,13 @@
-# react-icons
+# react-cards
 * Run `npm install` to get the project's dependencies
 * Run `npm run build` to produce minified version of the library
 * Run `npm run dev` to produce development version of the library.
 * Run `npm run test` to run tests
 * Run `npm run docs` to run generate examples
 
-### To use oc-common-ui
+### To use react-cards
 ```javascript
-import { Icon } from '@opuscapita/react-icons';
+import { Cards, Card, CardHeader, CardContent } from '@opuscapita/react-cards';
 ```
 ### Development workflow
 * Run `npm run docs`
@@ -15,13 +15,13 @@ import { Icon } from '@opuscapita/react-icons';
 
 ### Development workflow with project using the package
 ##### Link local package to your project
-* Run `npm link` at `react-icons` root to make your local package linkable
-* Run `npm link @opuscapita/react-icons` at project's dir that's using `react-icons` to use local package
+* Run `npm link` at `react-cards` root to make your local package linkable
+* Run `npm link @opuscapita/react-cards` at project's dir that's using `react-cards` to use local package
 ##### Build and watch the package
 * Run `npm run dev` to run webpack in watch mode
 ##### Unlink local package
-* Run `npm unlink @opuscapita/react-icons` at project's dir that's using `react-icons`
-* Run `npm install` to install remote copy of the `react-icons` package
+* Run `npm unlink @opuscapita/react-cards` at project's dir that's using `react-cards`
+* Run `npm install` to install remote copy of the `react-cards` package
 
 ### Changelog
 * Remember to update the CHANGELOG.md file with information about the changes to `src`
@@ -42,12 +42,12 @@ import { Icon } from '@opuscapita/react-icons';
 * If you get any errors about running many instances of certain npm libraries eg. React, check that your project's webpack is configured to resolve those conflicting packages to your projects `node_modules` directory. [Docs](https://webpack.github.io/docs/configuration.html#resolve-alias)
 
 ### Examples
-* [Demo](https://opuscapita.github.io/react-icons) implementations of the components
+* [Demo](https://opuscapita.github.io/react-cards) implementations of the components
 * Run `npm run docs` to create output to `examples-build` or `npm run hot` for using hot reload functionality
 
 ### Component descriptions
 
-- [Icons](./src/icons/README.md)
+- [Icons](./src/cards/README.md)
 
 ## Links
 
