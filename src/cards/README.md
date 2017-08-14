@@ -1,4 +1,4 @@
-Back to [oc-common-ui](../../README.md)
+Back to [react-cards](../../README.md)
 
 # Cards
 
@@ -51,7 +51,7 @@ N/A
 
 ```jsx
 import React from 'react';
-import { Cards, Card, CardHeader, CardContent } from '@opuscapita/oc-common-ui';
+import { Cards, Card, CardHeader, CardContent } from '@opuscapita/react-cards';
 
 class MyCardsView extends React.Component {
   constructor() {

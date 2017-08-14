@@ -47,7 +47,7 @@ import { Cards, Card, CardHeader, CardContent } from '@opuscapita/react-cards';
 
 ### Component descriptions
 
-- [Icons](./src/cards/README.md)
+- [Cards](./src/cards/README.md)
 
 ## Links
 
