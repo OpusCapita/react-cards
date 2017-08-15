@@ -33,19 +33,30 @@ const config = merge(getBaseConfiguration(params), {
       {
         test: /\.scss$/,
         use: [
-          {
-            loader: 'css-loader',
-            options: {
-              minimize: process.env.NODE_ENV === 'production',
-            },
-          },
+          'style-loader',
+          'css-loader',
           {
             loader: 'postcss-loader',
             options: {
               plugins: () => [flexbugs, precss, autoprefixer],
+              minimize: true,
             },
           },
           'sass-loader',
+        ],
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              plugins: () => [flexbugs, precss, autoprefixer],
+              minimize: true,
+            },
+          },
         ],
       },
     ],
