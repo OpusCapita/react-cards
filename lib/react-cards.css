@@ -1,5 +1,0 @@
-.oc-card-content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-top:10px}
-.oc-card-header{font-size:18px}.oc-card-header .content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.oc-card-header .children{-webkit-box-flex:50;-ms-flex-positive:50;flex-grow:50}.oc-card-header .collapse-expand{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:center;align-content:center}.oc-card-header button{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:Transparent;background-repeat:no-repeat;border:none;cursor:pointer;overflow:hidden;outline:none}.oc-card-header button:focus{box-shadow:0px 0px 0 0px Transparent, 0 0 0 0px Transparent}
-.oc-card{padding:10px;background:#fff}
-
-/*# sourceMappingURL=react-cards.css.map*/
