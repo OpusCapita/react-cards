@@ -3,13 +3,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
-import PerfectScrollbar from 'react-perfect-scrollbar';
+import PerfectScrollbar from '@opuscapita/react-perfect-scrollbar';
 
 import './cards.scss';
 
 
 export class Cards extends React.Component {
-
   componentDidUpdate(prevProps) {
     if (this.props.showOnlyCard ||
        (!this.props.showOnlyCard && prevProps.showOnlyCard)) {

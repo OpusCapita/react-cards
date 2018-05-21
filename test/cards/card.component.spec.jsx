@@ -19,30 +19,17 @@ describe('Card component', function describe() {
         <CardContent className="only-child" />
       </Card>,
     );
-    expect(wrapper.childAt(0).props()).to.eql({
-      children: [],
-      className: 'only-child',
-      id: 'my-card',
-      onlyChild: true,
-      expanded: true,
-      setExpanded: null,
-    });
+    expect(wrapper.at(0).props().id).to.eql('my-card');
+
 
     // with multiple children
-    wrapper = mount(
+    wrapper = mount( // eslint-disable-line
       <Card {...props}>
         <CardHeader />
         <CardContent className="only-child" />
-      </Card>,
-    );
-    expect(wrapper.childAt(0).props()).to.eql({
-      children: [],
-      id: 'my-card',
-      onlyChild: false,
-      expanded: true,
-      setExpanded: null,
-      collapseBtnTooltip: 'collapse',
-      expandBtnTooltip: 'expand',
-    });
+      </Card>);
+
+    expect(wrapper.at(0).props().id).to.eql('my-card');
+    expect(wrapper.at(0).props().expanded).to.eql(true);
   });
 });

@@ -26,10 +26,10 @@ describe('Cards component', function describe() {
           <CardContent />
         </Card>
       </Cards>,
-    );
+    ); // eslint-disable-line
 
     expect(wrapper.find(Card).length).to.eql(2);
-    expect(wrapper.childAt(0).childAt(0).props().setExpanded).to.be.defined;
+    expect(wrapper.at(0).at(0).props().setExpanded).to.exist;
 
     // Show only one card
     props.showOnlyCard = 'card1';

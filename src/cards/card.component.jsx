@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 
 import './card.scss';
 
-
 export function Card(props) {
   return (
     <div
