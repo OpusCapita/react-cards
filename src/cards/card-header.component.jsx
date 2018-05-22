@@ -8,7 +8,6 @@ import './card-header.scss';
 
 
 export class CardHeader extends React.Component {
-
   getExpandCollapse = () => {
     if (!this.props.setExpanded) {
       return null;
