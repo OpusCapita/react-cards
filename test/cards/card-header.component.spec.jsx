@@ -35,10 +35,10 @@ describe('CardHeader component', function describe() {
 
     let icons = wrapper.find(Icon);
     expect(icons.props()).to.eql({
-      height: 40,
+      height: 17,
       type: 'indicator',
       name: 'plus',
-      width: 40,
+      width: 17,
     });
 
     // expanded
@@ -48,10 +48,10 @@ describe('CardHeader component', function describe() {
     );
     icons = wrapper.find(Icon);
     expect(icons.props()).to.eql({
-      height: 40,
+      height: 17,
       type: 'indicator',
       name: 'minus',
-      width: 40,
+      width: 17,
     });
 
     const button = wrapper.find('button');

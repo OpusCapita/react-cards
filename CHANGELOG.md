@@ -2,6 +2,10 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+## 2.0.2
+* Update packages
+* Adjust icon size with new changes
+
 ## 2.0.1
 * re-published due to isssues in npmjs.org
 

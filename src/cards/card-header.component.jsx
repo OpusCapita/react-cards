@@ -22,6 +22,8 @@ export class CardHeader extends React.Component {
           }}
         >
           <Icon
+            width={17}
+            height={17}
             type="indicator"
             name="minus"
           />
@@ -33,6 +35,8 @@ export class CardHeader extends React.Component {
           }}
         >
           <Icon
+            width={17}
+            height={17}
             type="indicator"
             name="plus"
           />
